@@ -2,11 +2,11 @@
 
 // Mock/Chumbar/fixar = ler dados usuario
 
-$nome = "Lucas"; 
+$nome = "Fulano"; 
 $sexo = "Masculino";
-$idade = "22";
-$nomePai= "João";
-$nomeMae= "Adriana";
+$idade = "33";
+$nomePai= "Beltrano";
+$nomeMae= "Cicrana";
 
 // Exercicio 1
 
