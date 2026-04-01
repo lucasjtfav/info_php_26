@@ -14,7 +14,7 @@ $nomeMae= "Cicrana";
 
 // Exercicio 2
 
-$valor1 = 5;
+/**$valor1 = 5;
 $valor2 = 2; 
 
 $resultadoSoma = $valor1 + $valor2; // Soma
@@ -26,4 +26,30 @@ $resultadoDiv = $valor1 / $valor2; // Divisão
 echo "A soma dos valores $valor1 e $valor2 é $resultadoSoma <br>"; // Resultado adição
 echo "A subtração dos valores $valor1 e $valor2 é $resultadoSub <br>"; // Resultado subtração
 echo "A multiplicação dos valores $valor1 e $valor2 é $resultadoMult <br>"; // Resultado multiplicação
-echo "A divisão dos valores $valor1 e $valor2 é $resultadoDiv <br>"; // Resultado divisão
+echo "A divisão dos valores $valor1 e $valor2 é $resultadoDiv <br>"; // Resultado divisãp
+ */
+/**$numeroVar = 6;
+$formula = $numeroVar % 2;
+
+$par = $formula == 0;
+
+if ($par) {
+    echo "O número $numeroVar é par. <br>";
+} else {
+    echo "O número $numeroVar é impar <br>";
+}*/
+
+
+$nota1 = 7.5;
+$nota2 = 9.2;
+$nota3 = 9.1;
+
+$media = round(($nota1 + $nota2 + $nota3) / 3,2);
+
+echo "Média do ano: $media <br>";
+
+if ($media >= 7) {
+    echo "Aprovado";
+} else {
+    echo "Reprovado";
+}
