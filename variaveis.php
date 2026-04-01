@@ -46,7 +46,7 @@ $nota3 = 9.1;
 
 $media = round(($nota1 + $nota2 + $nota3) / 3,2);
 
-/**echo "Média do ano: $media <br>";
+echo "Média do ano: $media <br>";
 
 if ($media >= 7) {
     echo "Aprovado";
@@ -54,8 +54,10 @@ if ($media >= 7) {
     echo "Reprovado";
 }
 
+echo "<br> <br>";
+
 $mediaHarmonica;
-*/
+
 
 
 function harmonicMean(array $numbers): float {
@@ -80,10 +82,6 @@ function harmonicMean(array $numbers): float {
 }
 
 // Example usage: Calculating the harmonic mean of 2, 5, and 6
-$data = [7, 2, 9];
+$data = [9, 7, 9];
 $result = harmonicMean($data);
-echo "The harmonic mean is: " . $result;
-
-
-$mediaHarmonica = ($media1 + $media2 + $media3 / $somaInversos );
-$somaInversos = (0);
+echo "A média harmonica é: " . $result;
